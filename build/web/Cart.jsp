@@ -1,9 +1,8 @@
 <%-- 
-    Document   : Cart
-    Created on : Oct 31, 2020, 9:42:21 PM
-    Author     : trinh
+    Document   : Footer
+    Created on : Mar 11, 2022, 7:10:46 PM
+    Author     : BIU DANG QUY
 --%>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
