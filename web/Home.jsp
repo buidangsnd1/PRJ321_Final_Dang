@@ -1,11 +1,3 @@
-<%-- 
-    Document   : Menu
-    Created on : Mar 11, 2022, 7:04:13 PM
-    Author     : BIU DANG QUY
---%>
-<%@page import="java.util.List"%>
-<%@page import="entity.Product"%>
-<%@page import="dao.DAO"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

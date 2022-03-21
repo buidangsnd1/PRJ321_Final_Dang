@@ -9,7 +9,6 @@ import context.DBContext;
 import entity.Account;
 import entity.Category;
 import entity.Product;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -44,9 +43,11 @@ public class DAO {
                 list.add(product);
             }
         } catch (Exception e) {
+            System.out.println("loi cmnr");
         }
         return list;
     }
+
 
     public List<Category> getAllCategory() {
         List<Category> list = new ArrayList<>();
@@ -374,9 +375,10 @@ public class DAO {
 
     public static void main(String[] args) {
         DAO dao = new DAO();
+        List<Product> list = dao.getAllProduct();
+        //List<Product> list = dao.getProductByCID("1");
+        //List<Product> list = dao.pagingProduct(1);
         //List<Product> list = dao.getAllProduct();
-        //List<Category> listC = dao.getAllCategory();
-        List<Product> list = dao.pagingProduct(1);
         for (Product o : list) {
             System.out.println(o);
         }

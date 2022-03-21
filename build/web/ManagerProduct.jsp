@@ -1,7 +1,7 @@
 <%-- 
-    Document   : Menu
-    Created on : Mar 11, 2022, 7:04:13 PM
-    Author     : BIU DANG QUY
+    Document   : ManagerProduct
+    Created on : Dec 28, 2020, 5:19:02 PM
+    Author     : trinh
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -136,21 +136,20 @@
 
                         </div>
                         <div class="modal-footer">
-                            <input href="werewrew" type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                            <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                             <input type="submit" class="btn btn-success" value="Add">
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-        
-        
-    <script src="js/manager.js" type="text/javascript"></script>
-    <script>
-        var lastSlash = document.URL.lastIndexOf('/');
-        var homeHref = document.URL.substring(0,lastSlash);
-        document.getElementById("backToHome").setAttribute("href",homeHref + "/home");
-    </script>
-        
-</body>
+
+
+        <script src="js/manager.js" type="text/javascript"></script>
+        <script>
+            var lastSlash = document.URL.lastIndexOf('/');
+            var homeHref = document.URL.substring(0, lastSlash);
+            document.getElementById("backToHome").setAttribute("href", homeHref + "/home");
+        </script>
+    </body>
 </html>

@@ -1,7 +1,7 @@
 <%-- 
-    Document   : Menu
-    Created on : Mar 11, 2022, 7:04:13 PM
-    Author     : BIU DANG QUY
+    Document   : Detail
+    Created on : Dec 29, 2020, 5:43:04 PM
+    Author     : trinh
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -54,20 +54,17 @@
             <div class="container">
                 <div class="row">
                 <jsp:include page="Left.jsp"></jsp:include>
-                    <div class="col-sm-9">
-                        <div class="container">
-                            <div class="card">
-                                <div class="row">
-                                    <aside class="col-sm-5 border-right">
-                                        <article class="gallery-wrap"> 
-                                            <div class="img-big-wrap">
-                                                <div> <a href="#"><img src="${detail.image}"></a></div>
+                <div class="col-sm-9">
+                    <div class="container">
+                        <div class="card">
+                            <div class="row">
+                                <aside class="col-sm-5 border-right">
+                                    <article class="gallery-wrap"> 
+                                        <div class="img-big-wrap">
+                                            <div> <a href="#"><img src="${detail.image}"></a></div>
                                         </div> <!-- slider-product.// -->
                                         <div class="img-small-wrap">
-<!--                                            <div class="item-gallery"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCepDDx2BVt6xaS4HE-_i43nybyVabVS6B3d8M33F9BF_YY_jC1xaIZsNuR_o&usqp=CAc"> </div>
-                                            <div class="item-gallery"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCepDDx2BVt6xaS4HE-_i43nybyVabVS6B3d8M33F9BF_YY_jC1xaIZsNuR_o&usqp=CAc"> </div>
-                                            <div class="item-gallery"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCepDDx2BVt6xaS4HE-_i43nybyVabVS6B3d8M33F9BF_YY_jC1xaIZsNuR_o&usqp=CAc"> </div>
-                                            <div class="item-gallery"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCepDDx2BVt6xaS4HE-_i43nybyVabVS6B3d8M33F9BF_YY_jC1xaIZsNuR_o&usqp=CAc"> </div>-->
+                                           
                                         </div> <!-- slider-nav.// -->
                                     </article> <!-- gallery-wrap .end// -->
                                 </aside>
@@ -77,7 +74,7 @@
 
                                         <p class="price-detail-wrap"> 
                                             <span class="price h3 text-warning"> 
-                                                <span class="num">${detail.price}</span><span class="currency">00đ</span>
+                                                <span class="currency"></span><span class="num">${detail.price}00đ</span>
                                             </span> 
                                             <!--<span>/per kg</span>--> 
                                         </p> <!-- price-detail-wrap .// -->
@@ -108,6 +105,18 @@
                                                             <option> 1 </option>
                                                             <option> 2 </option>
                                                             <option> 3 </option>
+                                                            <option> 4 </option>
+                                                            <option> 5 </option>
+                                                            <option> 6 </option>
+                                                            <option> 7 </option>
+                                                            <option> 8 </option>
+                                                            <option> 9 </option>
+                                                            <option> 10 </option>
+                                                            <option> 11 </option>
+                                                            <option> 12 </option>
+                                                            <option> 13 </option>
+                                                            <option> 14 </option>
+                                                            <option> 15 </option>
                                                         </select>
                                                     </dd>
                                                 </dl>  <!-- item-property .// -->

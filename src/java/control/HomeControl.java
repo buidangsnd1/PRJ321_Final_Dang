@@ -47,8 +47,7 @@ public class HomeControl extends HttpServlet {
         request.setAttribute("p", last);
         request.getRequestDispatcher("Home.jsp").forward(request, response);
         //404 -> url
-        //500 -> jsp properties      
-        
+        //500 -> jsp properties
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

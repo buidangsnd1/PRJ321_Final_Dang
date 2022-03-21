@@ -1,4 +1,4 @@
-/*
+        /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -6,14 +6,12 @@
 package control;
 
 import dao.DAO;
+import entity.Category;
 import entity.Product;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -22,40 +20,34 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author trinh
  */
-@WebServlet(name = "OrderControl", urlPatterns = {"/order"})
-public class OrderControl extends HttpServlet {
+@WebServlet(name = "HomeControl", urlPatterns = {"/home"})
+public class HomeControl extends HttpServlet {
 
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        Cookie arr[] = request.getCookies();
-        List<Product> list = new ArrayList<>();
+        //b1: get data from dao
         DAO dao = new DAO();
-        for (Cookie o : arr) {
-            if (o.getName().equals("id")) {
-                if(o.getValue().equals("")) break;
-                String txt[] = o.getValue().split(",");
-                for (String s : txt) {
-                    list.add(dao.getProduct(s));
-                }
-            }
-        }
-        for (int i = 0; i < list.size(); i++) {
-            int count = 1;
-            for (int j = i+1; j < list.size(); j++) {
-                if(list.get(i).getId() == list.get(j).getId()){
-                    count++;
-                    list.remove(j);
-                    j--;
-                    list.get(i).setAmount(count);
-                }
-            }
-        }
-        for (Cookie o : arr) {
-            o.setMaxAge(0);
-            response.addCookie(o);
-        }
-        response.sendRedirect("Home.jsp");
+        List<Product> list = dao.getAllProduct();
+        List<Category> listC = dao.getAllCategory();
+        Product last = dao.getLast();
+        
+        //b2: set data to jsp
+        request.setAttribute("listP", list);
+        request.setAttribute("listCC", listC);
+        request.setAttribute("p", last);
+        request.getRequestDispatcher("Home.jsp").forward(request, response);
+        //404 -> url
+        //500 -> jsp properties
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

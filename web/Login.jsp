@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Menu
-    Created on : Mar 11, 2022, 7:04:13 PM
-    Author     : BIU DANG QUY
---%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

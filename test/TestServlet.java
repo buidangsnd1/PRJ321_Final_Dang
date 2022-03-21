@@ -3,14 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package control;
 
-import dao.DAO;
-import entity.Category;
-import entity.Product;
+
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,8 +17,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author BIU DANG QUY
  */
-@WebServlet(name = "SearchControl", urlPatterns = {"/search"})
-public class SearchControl extends HttpServlet {
+@WebServlet(name = "TestServlet", urlPatterns = {"/TestServlet"})
+public class TestServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,19 +32,7 @@ public class SearchControl extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        request.setCharacterEncoding("UTF-8");
-        String txtSearch = request.getParameter("txt");//do something
-        DAO dao = new DAO();
-        List<Product> list = dao.searchProductByName(txtSearch);
-        List<Category> listC = dao.getAllCategory();
-        Product last = dao.getLast();
-        
-        request.setAttribute("listP", list);
-        request.setAttribute("listCC", listC);
-        request.setAttribute("p", last);
-        request.setAttribute("txtS", txtSearch);
-        request.getRequestDispatcher("Home.jsp").forward(request, response);
-
+       
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -64,6 +48,8 @@ public class SearchControl extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+       String id = request.getParameter("id");
+        System.out.println(id);
     }
 
     /**
@@ -78,6 +64,7 @@ public class SearchControl extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+          response.sendRedirect("Login.jsp");
     }
 
     /**
