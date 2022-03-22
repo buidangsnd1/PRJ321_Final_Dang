@@ -46,6 +46,7 @@ public class MangerControl extends HttpServlet {
     List<Product> list = dao.getProductBySellID(id);
     List<Category> listC = dao.getAllCategory();
     
+       
     
     request.setAttribute("listP", list);
     request.setAttribute("listCC", listC);

@@ -32,19 +32,24 @@ public class ShowCartControl extends HttpServlet {
         PrintWriter out = response.getWriter();
         List<Product> list = new ArrayList<>();
         DAO dao = new DAO();
-        for (Cookie o : arr) {
-            if (o.getName().equals("id")) {
-                if(o.getValue().equals("")) break;
-                String txt[] = o.getValue().split(",");
-                for (String s : txt) {
-                    list.add(dao.getProduct(s));
+      //  if (arr != null) {
+            for (Cookie o : arr) {
+                if (o.getName().equals("id")) {
+                    if (o.getValue().equals("")) {
+                        break;
+                    }
+                    String txt[] = o.getValue().split(",");
+                    for (String s : txt) {
+                        list.add(dao.getProduct(s));
+                    }
                 }
             }
-        }
+     //   }
+
         for (int i = 0; i < list.size(); i++) {
             int count = 1;
-            for (int j = i+1; j < list.size(); j++) {
-                if(list.get(i).getId() == list.get(j).getId()){
+            for (int j = i + 1; j < list.size(); j++) {
+                if (list.get(i).getId() == list.get(j).getId()) {
                     count++;
                     list.remove(j);
                     j--;
@@ -60,7 +65,7 @@ public class ShowCartControl extends HttpServlet {
         request.setAttribute("total", total);
         request.setAttribute("vat", 0.1 * total);
         request.setAttribute("sum", 1.1 * total);
-        request.getRequestDispatcher("Cart.jsp").forward(request, response);
+       request.getRequestDispatcher("Cart2.jsp").forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

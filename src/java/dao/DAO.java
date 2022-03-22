@@ -39,6 +39,7 @@ public class DAO {
                 product.setImage(rs.getString("image"));
                 product.setTitle(rs.getString("title"));
                 product.setPrice(rs.getDouble("price"));
+                product.setAmount(rs.getInt("cateID"));
                 product.setDescription(rs.getString("description"));
                 list.add(product);
             }
@@ -47,7 +48,6 @@ public class DAO {
         }
         return list;
     }
-
 
     public List<Category> getAllCategory() {
         List<Category> list = new ArrayList<>();
@@ -226,6 +226,7 @@ public class DAO {
                 product.setTitle(rs.getString("title"));
                 product.setPrice(rs.getDouble("price"));
                 product.setDescription(rs.getString("description"));
+                product.setAmount(rs.getInt("cateID"));
                 list.add(product);
             }
         } catch (Exception e) {
@@ -323,13 +324,28 @@ public class DAO {
                 product.setPrice(rs.getDouble("price"));
                 product.setDescription(rs.getString("description"));
                 list.add(product);
+
             }
+
         } catch (Exception e) {
             System.out.println("loi pagingproduct  " + e);
         }
         return list;
 
     }
+//       String query = "select * from product";
+//        List<Product> list = new ArrayList<>();
+//        try {
+//            conn = new DBContext().getConnection();
+//            ps = conn.prepareStatement(query);
+//            rs = ps.executeQuery();
+//            while (rs.next()) {
+//                Product pr = new Product();
+//                pr.setId(rs.getInt("id"));
+//                pr.setName(rs.getString("name"));
+//                pr.setImage(rs.getString("image"));
+//                pr.setPrice(rs.getDouble("price"));
+//                list.add(pr);
 
     public List<Product> getAll() {
         String query = "select * from product";
@@ -343,9 +359,9 @@ public class DAO {
                 product.setId(rs.getInt("id"));
                 product.setName(rs.getString("name"));
                 product.setImage(rs.getString("image"));
-                product.setTitle(rs.getString("title"));
+                //product.setTitle(rs.getString("title"));
                 product.setPrice(rs.getDouble("price"));
-                product.setDescription(rs.getString("description"));
+                //product.setDescription(rs.getString("description"));
                 list.add(product);
             }
             return list;
@@ -367,10 +383,11 @@ public class DAO {
                 pr.setName(rs.getString("name"));
                 pr.setImage(rs.getString("image"));
                 pr.setPrice(rs.getDouble("price"));
+                return pr;
             }
         } catch (Exception e) {
         }
-        return null;
+        return pr;
     }
 
     public static void main(String[] args) {
@@ -379,8 +396,9 @@ public class DAO {
         //List<Product> list = dao.getProductByCID("1");
         //List<Product> list = dao.pagingProduct(1);
         //List<Product> list = dao.getAllProduct();
+        //List<Category> list = dao.getAllCategory();
         for (Product o : list) {
-            System.out.println(o);
+            System.out.println(o.getAmount());
         }
 //        for (Category o : listC) {
 //            System.out.println(o);

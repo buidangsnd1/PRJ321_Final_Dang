@@ -50,7 +50,7 @@
                         </button>
                     </div>
                 </div>
-                <a class="btn btn-success btn-sm ml-3" href="show">
+                <a class="btn btn-success btn-sm ml-3" href="Home2.jsp">
                     <i class="fa fa-shopping-cart"></i> Cart
                     <span class="badge badge-light">3</span>
                 </a>
@@ -60,8 +60,8 @@
 </nav>
 <section class="jumbotron text-center" style="background-image: url(http://video.laocaitv.vn/uploads/00KHOANH/KinhTe/a1_8.jpg)">
     <div class="container">
-        <h1 class="jumbotron-heading">Quế Tây Bắc sản vật của núi rừng!</h1>
-        <p class="lead text-muted mb-0">Uy tín tạo nên thương hiệu với hơn 10 năm cung cấp từ cây quế. Sàn giao dịch quế Việt Nam</p>
+        <h1 style="color: white" class="jumbotron-heading">Quế Tây Bắc sản vật của núi rừng!</h1>
+        <p class="lead text-muted mb-0"><samp style="color: white;">Uy tín tạo nên thương hiệu với hơn 10 năm cung cấp từ cây quế. Sàn giao dịch quế Việt Nam</samp></p>
     </div>
 </section>
 <!--end of menu-->

@@ -3,37 +3,29 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/LogOutControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/SignUpControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/DetailControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/LoginControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Cart.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/LoadControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/DeleteControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/ShowCartControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/addToCard/Cart.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Login.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Home.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Left.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/ManagerProduct.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/OrderControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/EditControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/addToCard/style.css</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/MangerControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/addToCard/index.html</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/RemoveProductControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/AddControl.java</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/HomeControl.java</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/entity/Account.java</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Category2.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Home2.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Menu2.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Cart.jsp</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Menu.jsp</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/CartControl.java</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/test.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/ShowCartControl.java</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/context/DBContext.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/addToCard/Category.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Edit.jsp</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Footer.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Cart2.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Home.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Left.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/dao/DAO.java</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/ManagerProduct.jsp</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/OrderControl.java</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/entity/Product.java</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/entity/Category.java</file>
+            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/addToCard/style.css</file>
             <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/addToCard/SubControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/src/java/control/CategoryControl.java</file>
-            <file>file:/C:/Users/BIU%20DANG%20QUY/Documents/NetBeansProjects/Final_Project_Dan6/PRJ321_Final_Dang/web/Detail.jsp</file>
         </group>
     </open-files>
 </project-private>

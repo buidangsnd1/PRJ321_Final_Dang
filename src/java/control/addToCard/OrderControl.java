@@ -55,7 +55,7 @@ public class OrderControl extends HttpServlet {
             o.setMaxAge(0);
             response.addCookie(o);
         }
-        response.sendRedirect("Home.jsp");
+        response.sendRedirect("Home2.jsp");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
